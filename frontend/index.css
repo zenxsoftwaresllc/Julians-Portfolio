@@ -6,6 +6,17 @@
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    background-color: rgb(54, 54, 54);
+  }
+
+  .menu {
+    display: none; /* Hide menu on mobile */
+  }
+}
+
 body {
   background-image: url("pictures/port.gif");
   background-repeat: no-repeat;
